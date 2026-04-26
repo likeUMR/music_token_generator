@@ -173,23 +173,9 @@
 python tools/ableton_playground_exact.py --state examples/playground_arrangement_demo.json --output-dir out/playground-exact-demo --master-gain 1.0
 ```
 
-## 九、示例说明
+## 九、结构设计建议
 
-默认示例配置：
-
-- `examples/playground_arrangement_demo.json`
-
-这份示例严格对齐 `The playground` 的真实状态模型，只描述网页本身可编辑的内容：
-
-- `beats`：格子开 / 关
-- `basslines/chords/melodies`：
-  - 当前 `root`
-  - 当前 `scale`
-  - 音符块的 `lane / start / length`
-
-### 示例结构
-
-当前示例采用：
+在当前模型中：
 
 - `4` 小节
 - 每小节 `4` 拍
@@ -197,49 +183,48 @@ python tools/ableton_playground_exact.py --state examples/playground_arrangement
 - 总共 `16` 个 grid
 - `1 grid = 1 beat`
 
-为了体现教程中的“重复 + 小变化 + 收束”，示例写成四个 1 小节短句：
+因此，一个完整状态天然适合被理解为 4 个连续的小节片段。实际写作时，不必把这 4 小节都写成同一种内容，而可以把它们看成 4 个可组合的短句单元。
 
-- `A`
-- `A`
-- `B`
-- `C`
+### 常见结构模式
 
-也就是一个完整的 4 小节 `AABC`。
+可以采用很多常见的重复与变化模式，例如：
 
-### 四层写法
+- `AABC`
+- `ABAB`
+- `ABAC`
+- `AAAA`
 
-#### 1. Beats
+这里没有唯一正确答案。核心不是套某一个固定模板，而是决定：
 
-- `Kick`：每拍一个，保持 `four on the floor`
-- `Clap`：每小节第 2、4 拍形成 backbeat
-- `ClosedHat`：按偶数拍形成稳定推动
-- `OpenHat`：只在第 2 个 A 结尾和 C 结尾打开一点，形成段尾提示
+- 哪些小节重复
+- 哪些小节变化
+- 哪一小节负责收束或制造转折
 
-#### 2. Basslines
+### 四层可以独立选模式
 
-- 第一个 `A`：`C-E-G-E`
-- 第二个 `A`：完全重复
-- `B`：改成 `A-C-A-G`
-- `C`：`F-A-G-C`，最后回主音
+`beats`、`basslines`、`chords`、`melodies` 不需要强制使用同一个结构模式。它们可以各自选择不同的重复关系。
 
-#### 3. Chords
+例如：
 
-- 第一个 `A`：`C major`
-- 第二个 `A`：`C major`
-- `B`：`A minor`
-- `C`：先 `G major` 再回 `C major`
+- `beats` 用 `AAAA`，负责稳定拍感
+- `basslines` 用 `AABC`，负责逐步增加变化
+- `chords` 用 `ABAB`，负责形成和声往复
+- `melodies` 用 `ABAC`，负责建立记忆点再做回答
 
-#### 4. Melodies
+也可以反过来：
 
-- 第一个 `A`：`E-G-A-G`
-- 第二个 `A`：完全重复
-- `B`：改成 `A-C-A-G`
-- `C`：`F-E-D-C` 下行解决
+- 鼓点变化最多
+- 和弦最稳定
+- 旋律只在最后一小节变化
 
-### 示例用途
+这些都符合当前状态模型。
 
-这份示例主要用于验证：
+### 使用建议
 
-1. 状态格式是否真正和 playground 对齐
-2. 是否能在不超出网页自由度的前提下写出一个小型 `AABC` 循环
-3. 是否能正确导出四条 stem 和最终混音
+如果你想让结果更像教程中强调的写作方式，可以优先考虑：
+
+1. 至少有一层保持较稳定的重复。
+2. 至少有一层在后半段出现变化。
+3. 最后一小节让某一层承担“结束感”或“回答感”。
+
+这样即使只有 4 小节，也能形成比较清楚的结构感。
