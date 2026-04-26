@@ -1,0 +1,194 @@
+﻿{
+    "source_page":  "https://learningmusic.ableton.com/the-playground.html",
+    "source_site":  "https://learningmusic.ableton.com",
+    "base_sound_url":  "https://learningmusic.ableton.com/lessons/sounds",
+    "saved_format":  "ogg",
+    "alternative_formats":  [
+                                "mp4",
+                                "wav"
+                            ],
+    "categories":  {
+                       "melodies":  [
+                                        {
+                                            "name":  "sinelead1",
+                                            "relative_path":  ".\\ableton-playground-audio\\melodies\\sinelead1.ogg",
+                                            "source_path":  "sinelead/sinelead1",
+                                            "url":  "https://learningmusic.ableton.com/lessons/sounds/sinelead/sinelead1.ogg"
+                                        },
+                                        {
+                                            "name":  "sinelead2",
+                                            "relative_path":  ".\\ableton-playground-audio\\melodies\\sinelead2.ogg",
+                                            "source_path":  "sinelead/sinelead2",
+                                            "url":  "https://learningmusic.ableton.com/lessons/sounds/sinelead/sinelead2.ogg"
+                                        },
+                                        {
+                                            "name":  "sinelead3",
+                                            "relative_path":  ".\\ableton-playground-audio\\melodies\\sinelead3.ogg",
+                                            "source_path":  "sinelead/sinelead3",
+                                            "url":  "https://learningmusic.ableton.com/lessons/sounds/sinelead/sinelead3.ogg"
+                                        },
+                                        {
+                                            "name":  "sinelead4",
+                                            "relative_path":  ".\\ableton-playground-audio\\melodies\\sinelead4.ogg",
+                                            "source_path":  "sinelead/sinelead4",
+                                            "url":  "https://learningmusic.ableton.com/lessons/sounds/sinelead/sinelead4.ogg"
+                                        }
+                                    ],
+                       "beats":  [
+                                     {
+                                         "name":  "Kick",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\Kick.ogg",
+                                         "source_path":  "simplesequencer/909/Kick",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/Kick.ogg"
+                                     },
+                                     {
+                                         "name":  "Rim",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\Rim.ogg",
+                                         "source_path":  "simplesequencer/909/Rim",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/Rim.ogg"
+                                     },
+                                     {
+                                         "name":  "Snare",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\Snare.ogg",
+                                         "source_path":  "simplesequencer/909/Snare",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/Snare.ogg"
+                                     },
+                                     {
+                                         "name":  "Clap",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\Clap.ogg",
+                                         "source_path":  "simplesequencer/909/Clap",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/Clap.ogg"
+                                     },
+                                     {
+                                         "name":  "ClosedHat",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\ClosedHat.ogg",
+                                         "source_path":  "simplesequencer/909/ClosedHat",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/ClosedHat.ogg"
+                                     },
+                                     {
+                                         "name":  "OpenHat",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\OpenHat.ogg",
+                                         "source_path":  "simplesequencer/909/OpenHat",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/OpenHat.ogg"
+                                     },
+                                     {
+                                         "name":  "TomHi",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\TomHi.ogg",
+                                         "source_path":  "simplesequencer/909/TomHi",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/TomHi.ogg"
+                                     },
+                                     {
+                                         "name":  "Ride",
+                                         "relative_path":  ".\\ableton-playground-audio\\beats\\Ride.ogg",
+                                         "source_path":  "simplesequencer/909/Ride",
+                                         "url":  "https://learningmusic.ableton.com/lessons/sounds/simplesequencer/909/Ride.ogg"
+                                     }
+                                 ],
+                       "chords":  [
+                                      {
+                                          "name":  "C1v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C1v10.ogg",
+                                          "source_path":  "piano/C1v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C1v10.ogg"
+                                      },
+                                      {
+                                          "name":  "Fs1v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\Fs1v10.ogg",
+                                          "source_path":  "piano/Fs1v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/Fs1v10.ogg"
+                                      },
+                                      {
+                                          "name":  "C2v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C2v10.ogg",
+                                          "source_path":  "piano/C2v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C2v10.ogg"
+                                      },
+                                      {
+                                          "name":  "Fs2v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\Fs2v10.ogg",
+                                          "source_path":  "piano/Fs2v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/Fs2v10.ogg"
+                                      },
+                                      {
+                                          "name":  "C3v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C3v10.ogg",
+                                          "source_path":  "piano/C3v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C3v10.ogg"
+                                      },
+                                      {
+                                          "name":  "Fs3v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\Fs3v10.ogg",
+                                          "source_path":  "piano/Fs3v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/Fs3v10.ogg"
+                                      },
+                                      {
+                                          "name":  "C4v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C4v10.ogg",
+                                          "source_path":  "piano/C4v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C4v10.ogg"
+                                      },
+                                      {
+                                          "name":  "Fs4v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\Fs4v10.ogg",
+                                          "source_path":  "piano/Fs4v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/Fs4v10.ogg"
+                                      },
+                                      {
+                                          "name":  "C5v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C5v10.ogg",
+                                          "source_path":  "piano/C5v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C5v10.ogg"
+                                      },
+                                      {
+                                          "name":  "Fs5v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\Fs5v10.ogg",
+                                          "source_path":  "piano/Fs5v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/Fs5v10.ogg"
+                                      },
+                                      {
+                                          "name":  "C6v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C6v10.ogg",
+                                          "source_path":  "piano/C6v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C6v10.ogg"
+                                      },
+                                      {
+                                          "name":  "Fs6v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\Fs6v10.ogg",
+                                          "source_path":  "piano/Fs6v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/Fs6v10.ogg"
+                                      },
+                                      {
+                                          "name":  "C7v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C7v10.ogg",
+                                          "source_path":  "piano/C7v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C7v10.ogg"
+                                      },
+                                      {
+                                          "name":  "Fs7v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\Fs7v10.ogg",
+                                          "source_path":  "piano/Fs7v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/Fs7v10.ogg"
+                                      },
+                                      {
+                                          "name":  "C8v10",
+                                          "relative_path":  ".\\ableton-playground-audio\\chords\\C8v10.ogg",
+                                          "source_path":  "piano/C8v10",
+                                          "url":  "https://learningmusic.ableton.com/lessons/sounds/piano/C8v10.ogg"
+                                      }
+                                  ],
+                       "basslines":  [
+                                         {
+                                             "name":  "boffner1",
+                                             "relative_path":  ".\\ableton-playground-audio\\basslines\\boffner1.ogg",
+                                             "source_path":  "boffner/boffner1",
+                                             "url":  "https://learningmusic.ableton.com/lessons/sounds/boffner/boffner1.ogg"
+                                         },
+                                         {
+                                             "name":  "boffner2",
+                                             "relative_path":  ".\\ableton-playground-audio\\basslines\\boffner2.ogg",
+                                             "source_path":  "boffner/boffner2",
+                                             "url":  "https://learningmusic.ableton.com/lessons/sounds/boffner/boffner2.ogg"
+                                         }
+                                     ]
+                   }
+}

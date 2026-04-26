@@ -4,6 +4,10 @@
 
 这份格式按 [The playground](https://learningmusic.ableton.com/the-playground.html) 的真实控件自由度来设计，不再使用之前那种更泛化的“任意事件参数”模型。
 
+相关素材目录：`ableton-playground-audio/`
+
+素材使用限制说明见：`ableton-playground-audio/NOTICE.md`
+
 ## 一、网页真实约束
 
 ### `beats`

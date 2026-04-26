@@ -2,25 +2,13 @@
 
 示例配置：`examples/playground_arrangement_demo.json`
 
-这一版示例不再追求“更通用的编排器”，而是严格对齐 [The playground](https://learningmusic.ableton.com/the-playground.html) 本身的状态模型。
+这份示例严格对齐 [The playground](https://learningmusic.ableton.com/the-playground.html) 的真实状态模型，只描述网页本身可编辑的内容：
 
-也就是说，这份示例现在只描述网页真实允许你改的东西：
-
-- `beats`：哪些格子开，哪些格子关
+- `beats`：格子开 / 关
 - `basslines/chords/melodies`：
   - 当前 `root`
   - 当前 `scale`
-  - 音符块的 `lane/start/length`
-
-## 为什么这次和上一版不同
-
-你指出得对：上一版虽然音乐上能工作，但自由度比网页更大，例如：
-
-- beat 里加入了网页没有的额外参数
-- tonal 部分允许了更泛化的事件写法
-- 整体更像“通用音序器”，而不是 playground 本身
-
-这次已经改成“只保留网页真实控件状态”。
+  - 音符块的 `lane / start / length`
 
 ## 这一版音乐结构
 
@@ -48,7 +36,7 @@
 
 - `Kick`：每拍一个，保持 `four on the floor`
 - `Clap`：每小节第 2、4 拍形成 backbeat
-- `ClosedHat`：稳定细分推动
+- `ClosedHat`：按偶数拍形成稳定推动
 - `OpenHat`：只在第 2 个 A 结尾和 C 结尾打开一点，形成段尾提示
 
 ### 2. Basslines
