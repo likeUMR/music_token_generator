@@ -1,0 +1,96 @@
+{
+  "name": "playground-exact-dorian-groove",
+  "tempo": 240,
+  "beats": {
+    "active_steps": {
+      "Kick": [0, 2, 4, 6, 8, 10, 12, 14],
+      "Snare": [1, 5, 9, 13],
+      "ClosedHat": [3, 7, 11, 15],
+      "OpenHat": [6, 14],
+      "Rim": [7, 15]
+    }
+  },
+  "basslines": {
+    "root": "D",
+    "scale": "Dorian",
+    "notes": [
+      { "lane": 0, "start": 0, "length": 1 },
+      { "lane": 2, "start": 1, "length": 1 },
+      { "lane": 4, "start": 2, "length": 1 },
+      { "lane": 2, "start": 3, "length": 1 },
+
+      { "lane": 3, "start": 4, "length": 1 },
+      { "lane": 5, "start": 5, "length": 1 },
+      { "lane": 4, "start": 6, "length": 1 },
+      { "lane": 3, "start": 7, "length": 1 },
+
+      { "lane": 0, "start": 8, "length": 1 },
+      { "lane": 2, "start": 9, "length": 1 },
+      { "lane": 4, "start": 10, "length": 1 },
+      { "lane": 2, "start": 11, "length": 1 },
+
+      { "lane": 6, "start": 12, "length": 1 },
+      { "lane": 5, "start": 13, "length": 1 },
+      { "lane": 3, "start": 14, "length": 1 },
+      { "lane": 0, "start": 15, "length": 1 }
+    ]
+  },
+  "chords": {
+    "root": "D",
+    "scale": "Dorian",
+    "notes": [
+      { "lane": 0, "start": 0, "length": 2 },
+      { "lane": 2, "start": 0, "length": 2 },
+      { "lane": 4, "start": 0, "length": 2 },
+      { "lane": 0, "start": 2, "length": 2 },
+      { "lane": 2, "start": 2, "length": 2 },
+      { "lane": 4, "start": 2, "length": 2 },
+
+      { "lane": 3, "start": 4, "length": 2 },
+      { "lane": 5, "start": 4, "length": 2 },
+      { "lane": 7, "start": 4, "length": 2 },
+      { "lane": 3, "start": 6, "length": 2 },
+      { "lane": 5, "start": 6, "length": 2 },
+      { "lane": 7, "start": 6, "length": 2 },
+
+      { "lane": 0, "start": 8, "length": 2 },
+      { "lane": 2, "start": 8, "length": 2 },
+      { "lane": 4, "start": 8, "length": 2 },
+      { "lane": 0, "start": 10, "length": 2 },
+      { "lane": 2, "start": 10, "length": 2 },
+      { "lane": 4, "start": 10, "length": 2 },
+
+      { "lane": 6, "start": 12, "length": 2 },
+      { "lane": 8, "start": 12, "length": 2 },
+      { "lane": 10, "start": 12, "length": 2 },
+      { "lane": 6, "start": 14, "length": 2 },
+      { "lane": 8, "start": 14, "length": 2 },
+      { "lane": 10, "start": 14, "length": 2 }
+    ]
+  },
+  "melodies": {
+    "root": "D",
+    "scale": "Dorian",
+    "notes": [
+      { "lane": 9, "start": 0, "length": 1 },
+      { "lane": 11, "start": 1, "length": 1 },
+      { "lane": 10, "start": 2, "length": 1 },
+      { "lane": 9, "start": 3, "length": 1 },
+
+      { "lane": 10, "start": 4, "length": 1 },
+      { "lane": 12, "start": 5, "length": 1 },
+      { "lane": 11, "start": 6, "length": 1 },
+      { "lane": 10, "start": 7, "length": 1 },
+
+      { "lane": 9, "start": 8, "length": 1 },
+      { "lane": 11, "start": 9, "length": 1 },
+      { "lane": 10, "start": 10, "length": 1 },
+      { "lane": 9, "start": 11, "length": 1 },
+
+      { "lane": 13, "start": 12, "length": 1 },
+      { "lane": 12, "start": 13, "length": 1 },
+      { "lane": 10, "start": 14, "length": 1 },
+      { "lane": 7, "start": 15, "length": 1 }
+    ]
+  }
+}

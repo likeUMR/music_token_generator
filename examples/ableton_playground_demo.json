@@ -1,0 +1,60 @@
+{
+  "tempo": 85,
+  "tracks": [
+    {
+      "instrument": "beats",
+      "events": [
+        { "time_beats": 0.0, "midi": 36 },
+        { "time_beats": 1.0, "midi": 42 },
+        { "time_beats": 2.0, "midi": 38 },
+        { "time_beats": 3.0, "midi": 42 },
+        { "time_beats": 4.0, "midi": 36 },
+        { "time_beats": 5.0, "midi": 46 },
+        { "time_beats": 6.0, "midi": 38 },
+        { "time_beats": 6.5, "midi": 42 },
+        { "time_beats": 7.0, "midi": 46 }
+      ]
+    },
+    {
+      "instrument": "basslines",
+      "events": [
+        { "time_beats": 0.0, "note": "C2", "duration_beats": 1.0 },
+        { "time_beats": 1.0, "note": "G1", "duration_beats": 1.0 },
+        { "time_beats": 2.0, "note": "A1", "duration_beats": 1.0 },
+        { "time_beats": 3.0, "note": "F1", "duration_beats": 1.0 },
+        { "time_beats": 4.0, "note": "C2", "duration_beats": 1.0 },
+        { "time_beats": 5.0, "note": "G1", "duration_beats": 1.0 },
+        { "time_beats": 6.0, "note": "A1", "duration_beats": 1.0 },
+        { "time_beats": 7.0, "note": "F1", "duration_beats": 1.0 }
+      ]
+    },
+    {
+      "instrument": "chords",
+      "events": [
+        { "time_beats": 0.0, "note": "C4", "duration_beats": 4.0, "velocity": 0.8 },
+        { "time_beats": 0.0, "note": "E4", "duration_beats": 4.0, "velocity": 0.8 },
+        { "time_beats": 0.0, "note": "G4", "duration_beats": 4.0, "velocity": 0.8 },
+        { "time_beats": 4.0, "note": "F4", "duration_beats": 4.0, "velocity": 0.8 },
+        { "time_beats": 4.0, "note": "A4", "duration_beats": 4.0, "velocity": 0.8 },
+        { "time_beats": 4.0, "note": "C5", "duration_beats": 4.0, "velocity": 0.8 }
+      ]
+    },
+    {
+      "instrument": "melodies",
+      "events": [
+        { "time_beats": 0.0, "note": "E5", "duration_beats": 0.5 },
+        { "time_beats": 0.5, "note": "G5", "duration_beats": 0.5 },
+        { "time_beats": 1.0, "note": "A5", "duration_beats": 1.0 },
+        { "time_beats": 2.0, "note": "G5", "duration_beats": 0.5 },
+        { "time_beats": 2.5, "note": "E5", "duration_beats": 0.5 },
+        { "time_beats": 3.0, "note": "D5", "duration_beats": 1.0 },
+        { "time_beats": 4.0, "note": "C5", "duration_beats": 0.5 },
+        { "time_beats": 4.5, "note": "D5", "duration_beats": 0.5 },
+        { "time_beats": 5.0, "note": "E5", "duration_beats": 0.5 },
+        { "time_beats": 5.5, "note": "G5", "duration_beats": 0.5 },
+        { "time_beats": 6.0, "note": "A5", "duration_beats": 1.0 },
+        { "time_beats": 7.0, "note": "G5", "duration_beats": 1.0 }
+      ]
+    }
+  ]
+}

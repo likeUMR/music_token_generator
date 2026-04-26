@@ -1,0 +1,87 @@
+{
+  "name": "playground-exact-lydian-bounce",
+  "tempo": 240,
+  "beats": {
+    "active_steps": {
+      "Kick": [0, 2, 4, 7, 8, 10, 12, 15],
+      "Clap": [1, 5, 9, 13],
+      "ClosedHat": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "OpenHat": [3, 7, 11, 15],
+      "Ride": [6, 14]
+    }
+  },
+  "basslines": {
+    "root": "F",
+    "scale": "Lydian",
+    "notes": [
+      { "lane": 0, "start": 0, "length": 1 },
+      { "lane": 2, "start": 1, "length": 1 },
+      { "lane": 4, "start": 2, "length": 1 },
+      { "lane": 3, "start": 3, "length": 1 },
+
+      { "lane": 0, "start": 4, "length": 1 },
+      { "lane": 2, "start": 5, "length": 1 },
+      { "lane": 4, "start": 6, "length": 1 },
+      { "lane": 5, "start": 7, "length": 1 },
+
+      { "lane": 1, "start": 8, "length": 1 },
+      { "lane": 3, "start": 9, "length": 1 },
+      { "lane": 5, "start": 10, "length": 1 },
+      { "lane": 4, "start": 11, "length": 1 },
+
+      { "lane": 4, "start": 12, "length": 1 },
+      { "lane": 6, "start": 13, "length": 1 },
+      { "lane": 4, "start": 14, "length": 1 },
+      { "lane": 0, "start": 15, "length": 1 }
+    ]
+  },
+  "chords": {
+    "root": "F",
+    "scale": "Lydian",
+    "notes": [
+      { "lane": 0, "start": 0, "length": 4 },
+      { "lane": 2, "start": 0, "length": 4 },
+      { "lane": 4, "start": 0, "length": 4 },
+
+      { "lane": 0, "start": 4, "length": 4 },
+      { "lane": 2, "start": 4, "length": 4 },
+      { "lane": 4, "start": 4, "length": 4 },
+
+      { "lane": 1, "start": 8, "length": 4 },
+      { "lane": 3, "start": 8, "length": 4 },
+      { "lane": 5, "start": 8, "length": 4 },
+
+      { "lane": 4, "start": 12, "length": 2 },
+      { "lane": 6, "start": 12, "length": 2 },
+      { "lane": 8, "start": 12, "length": 2 },
+      { "lane": 0, "start": 14, "length": 2 },
+      { "lane": 2, "start": 14, "length": 2 },
+      { "lane": 4, "start": 14, "length": 2 }
+    ]
+  },
+  "melodies": {
+    "root": "F",
+    "scale": "Lydian",
+    "notes": [
+      { "lane": 9, "start": 0, "length": 1 },
+      { "lane": 11, "start": 1, "length": 1 },
+      { "lane": 10, "start": 2, "length": 1 },
+      { "lane": 9, "start": 3, "length": 1 },
+
+      { "lane": 9, "start": 4, "length": 1 },
+      { "lane": 11, "start": 5, "length": 1 },
+      { "lane": 10, "start": 6, "length": 1 },
+      { "lane": 12, "start": 7, "length": 1 },
+
+      { "lane": 10, "start": 8, "length": 1 },
+      { "lane": 12, "start": 9, "length": 1 },
+      { "lane": 13, "start": 10, "length": 1 },
+      { "lane": 12, "start": 11, "length": 1 },
+
+      { "lane": 11, "start": 12, "length": 1 },
+      { "lane": 10, "start": 13, "length": 1 },
+      { "lane": 9, "start": 14, "length": 1 },
+      { "lane": 7, "start": 15, "length": 1 }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+out/
+ableton-playground-audio/
+__pycache__/
+*.pyc
